@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "GlassTab",
+  "version": "1.0.0",
+  "description": "Clean Chrome new tab page.",
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "storage",
+    "favicon",
+    "identity",
+    "identity.email",
+    "unlimitedStorage"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}
